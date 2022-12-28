@@ -11,5 +11,5 @@ services:
     ports:
       - "9393"
     volumes:
-      - ${MAIN_DIRECTORY_PATH}:/root/mango
-      - ${CONFIG_DIRECTORY_PATH}:/root/.config/mango
+      - /media/hdd4/server/comics
+      - ~/.config/mango
